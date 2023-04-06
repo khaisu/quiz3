@@ -1,0 +1,16 @@
+
+POST http://localhost:3000/login
+content-Type: :application/json
+
+{
+    "username": "khairul",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/bye
