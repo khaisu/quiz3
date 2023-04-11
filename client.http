@@ -1,10 +1,24 @@
 
 POST http://localhost:3000/login
-content-Type: :application/json
+Content-Type: application/json
 
 {
-    "username": "khairul",
-    "password": "password"
+    "username":"khairul",
+      "password":"1234"
+
+}
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+      "username":"khairul",
+      "password":"1234",
+      "name":"Khairul",
+      "email":"khairul0425@gmail.com"
+
 }
 
 ###
@@ -13,4 +27,4 @@ GET http://localhost:3000
 
 ###
 
-GET http://localhost:3000/bye
+GET http://localhost:3000/bruh
