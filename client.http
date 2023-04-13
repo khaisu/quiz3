@@ -10,6 +10,12 @@ Content-Type: application/json
 
 ###
 
+GET  http://localhost:3000/bruh
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtoYWlydWwiLCJwYXNzd29yZCI6IjEyMzQiLCJuYW1lIjoiS2hhaXJ1bCIsImVtYWlsIjoia2hhaXJ1bDA0MjVAZ21haWwuY29tIiwiaWF0IjoxNjgxMzcwNTA2LCJleHAiOjE2ODEzNzA2MjZ9.yLmghyOrAmve_U0Fjb0IEt0NAQUj0YNyXReqHw6EhiI
+      "username":"khairul",
+      "password":"1234"
+###
+
 POST http://localhost:3000/register
 Content-Type: application/json
 
